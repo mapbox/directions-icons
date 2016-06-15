@@ -48,10 +48,10 @@ function getRoute(fromLng, fromLat, toLng, toLat, callback) {
                 var maneuver = steps[i].maneuver;
                 var item = document.createElement('div');
                 var image = document.createElement('img');
-                var icon = maneuver.modifier ? (maneuver.type + '-' + maneuver.modifier).replace(' ', '-') : maneuver.type.replace(' ', '-');
+                var icon = maneuver.modifier ? (maneuver.type + '_' + maneuver.modifier).replace(' ', '_') : maneuver.type.replace(' ', '_');
                 item.innerHTML = maneuver.instruction;
                 item.setAttribute('class', 'instruction');
-                image.setAttribute('src', './icons/' + icon.replace(' ', '-') + '.png');
+                image.setAttribute('src', './icons/direction_' + icon.replace(' ', '_') + '.png');
                 image.setAttribute('width', '50');
                 sidebar.appendChild(item);
                 sidebar.appendChild(image);
