@@ -1,0 +1,36 @@
+{
+  "name": "directions-icons",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "budo debug/index.js:bundle.js --live --dir debug/ --dir src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/directions-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/directions-icons/issues"
+  },
+  "homepage": "https://github.com/mapbox/directions-icons#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "budo": "^8.2.1",
+    "mapbox.js": "^2.4.0",
+    "mapnik": "^3.5.6",
+    "leaflet-hash": "^0.2.1",
+    "request": "^2.69.0",
+    "zip-dir": "^1.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "svg-numbers": "^0.1.1",
+    "svg-path": "^0.2.1",
+    "svg-path-bounding-box": "^1.0.4",
+    "svgpath": "^2.1.6"
+  }
+}

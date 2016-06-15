@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+  #side {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: white;
+    width: 20%;
+    overflow-y: scroll;
+  }
+  .instruction {
+      padding: 5px;
+  }
+</style>
+</head>
+<body>
+  <div id='map'></div>
+  <div id='side'></div>
+</body>
+<script src='bundle.js'></script>
+</html>
