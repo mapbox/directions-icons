@@ -94,3 +94,10 @@ To add a new icon:
 1. Create an svg
 1. Name it `type_modifier` and save it to `src/svg/`. Example: `turn_left.svg`
 1. run `node index.js`
+
+
+### License
+
+To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
+
+[![CC0-1.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](LICENSE.md)
